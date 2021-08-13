@@ -1,4 +1,4 @@
-execute if entity @s[scores={jw_sc_type=0}] at @e[type=#jw_sc:scarecrow/default,distance=..7] run function jw_sc:scarecrow/repulse
+execute unless score @s jw_sc_type matches 1.. at @e[type=#jw_sc:scarecrow/default,distance=..7] run function jw_sc:scarecrow/repulse
 execute if entity @s[scores={jw_sc_type=1}] at @e[type=#jw_sc:scarecrow/iron_golem,distance=..7] run function jw_sc:scarecrow/repulse
 execute if entity @s[scores={jw_sc_type=2}] at @e[type=#jw_sc:scarecrow/axolotl,distance=..7] run function jw_sc:scarecrow/repulse
 execute if entity @s[scores={jw_sc_type=3}] at @e[type=#jw_sc:scarecrow/polar_bear,distance=..7] run function jw_sc:scarecrow/repulse
