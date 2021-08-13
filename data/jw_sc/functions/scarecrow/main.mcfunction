@@ -1,0 +1,9 @@
+execute if entity @s[tag=jw_sc.default] at @e[type=#jw_sc:scarecrow/default,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.iron_golem] at @e[type=#jw_sc:scarecrow/iron_golem,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.axolotl] at @e[type=#jw_sc:scarecrow/axolotl,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.polar_bear] at @e[type=#jw_sc:scarecrow/polar_bear,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.snow_golem] at @e[type=#jw_sc:scarecrow/snow_golem,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.wolf] at @e[type=#jw_sc:scarecrow/wolf,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.fox] at @e[type=#jw_sc:scarecrow/fox,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.ocelot] at @e[type=#jw_sc:scarecrow/ocelot,distance=..7] run function jw_sc:scarecrow/repulse
+execute if entity @s[tag=jw_sc.cat] at @e[type=#jw_sc:scarecrow/cat,distance=..7] run function jw_sc:scarecrow/repulse
