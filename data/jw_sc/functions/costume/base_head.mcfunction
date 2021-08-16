@@ -1,0 +1,2 @@
+data merge entity @s {Tags:[""],Item:{id:"minecraft:player_head",tag:{jw_sc:{isBase:1b,costume:"unset"},SkullOwner:{Id:[I;-884443472,-1441576651,-1843427814,1745223002],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTU5NDM4OGJmMDEzYTRlM2U2ODY5ZmFhYmNiOTVkMzFkZDNmNGEyNThhNTM1ZTdjYmQ5MmM5OTg2YjcifX19"}]}}}},Motion:[0.0,0.2,0.008]}
+playsound block.bubble_column.bubble_pop ambient @a[distance=..10] ~ ~ ~ 1 0.5 0.1
