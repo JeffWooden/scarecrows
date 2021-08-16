@@ -1,4 +1,4 @@
 advancement revoke @s only jw_sc:placed_cost_head
 scoreboard players set range jw_sc_calc 60
 execute at @s anchored eyes run function jw_sc:costume/block_head_ray
-give @s[gamemode=!creative] player_head
+give @s[gamemode=!creative] player_head{jw_sc:{isCostume:1b,costume:"unset"},display:{Name:'{"text":"Costume Blank Base","italic":false,"bold": true,"color":"#e3c2a8"}'},SkullOwner:{Id:[I;-884443472,-1441576651,-1843427814,1745223002],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTU5NDM4OGJmMDEzYTRlM2U2ODY5ZmFhYmNiOTVkMzFkZDNmNGEyNThhNTM1ZTdjYmQ5MmM5OTg2YjcifX19"}]}}}
