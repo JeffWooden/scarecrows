@@ -1,3 +1,4 @@
+execute store result score @s jw_sc_type run data get entity @s ArmorItems[3].tag.jw_sc.costume
 execute unless score @s jw_sc_type matches 1.. at @e[type=#jw_sc:scarecrow/default,distance=..7] run function jw_sc:scarecrow/repulse
 execute if entity @s[scores={jw_sc_type=1}] at @e[type=#jw_sc:scarecrow/axolotl,distance=..7] run function jw_sc:scarecrow/repulse
 execute if entity @s[scores={jw_sc_type=2}] at @e[type=#jw_sc:scarecrow/cat,distance=..7] run function jw_sc:scarecrow/repulse
