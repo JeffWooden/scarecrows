@@ -23,7 +23,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{SkullOwner:{Id:[I;-394194425,-1160429373,-1204553605,1646037361],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTEzZjM0MjI3MjgzNzk2YmMwMTcyNDRjYjQ2NTU3ZDY0YmQ1NjJmYTlkYWIwZTEyYWY1ZDIzYWQ2OTljZjY5NyJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:\"iron_golem\"}}",
+		"tag": "{SkullOwner:{Id:[I;-394194425,-1160429373,-1204553605,1646037361],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTEzZjM0MjI3MjgzNzk2YmMwMTcyNDRjYjQ2NTU3ZDY0YmQ1NjJmYTlkYWIwZTEyYWY1ZDIzYWQ2OTljZjY5NyJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:4}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -62,7 +62,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{SkullOwner:{Id:[I;1716376722,1070416955,-1637790594,-1113698800],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19\"}]}},jw_sc:{isCostume:1b,costume:\"ocelot\"}}",
+		"tag": "{SkullOwner:{Id:[I;1716376722,1070416955,-1637790594,-1113698800],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19\"}]}},jw_sc:{isCostume:1b,costume:5}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -101,7 +101,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{SkullOwner:{Id:[I;1070247943,413812528,-1305975695,759230725],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmZTkyNjkyMmZiYjQwNmYzNDNiMzRhMTBiYjk4OTkyY2VlNDQxMDEzN2QzZjg4MDk5NDI3YjIyZGUzYWI5MCJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:\"polar_bear\"}}",
+		"tag": "{SkullOwner:{Id:[I;1070247943,413812528,-1305975695,759230725],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmZTkyNjkyMmZiYjQwNmYzNDNiMzRhMTBiYjk4OTkyY2VlNDQxMDEzN2QzZjg4MDk5NDI3YjIyZGUzYWI5MCJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:6}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -140,7 +140,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{SkullOwner:{Id:[I;2123952133,-46841029,-1740743230,-742739724],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZkZmQxZjc1MzhjMDQwMjU4YmU3YTkxNDQ2ZGE4OWVkODQ1Y2M1ZWY3MjhlYjVlNjkwNTQzMzc4ZmNmNCJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:\"snow_golem\"}}",
+		"tag": "{SkullOwner:{Id:[I;2123952133,-46841029,-1740743230,-742739724],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZkZmQxZjc1MzhjMDQwMjU4YmU3YTkxNDQ2ZGE4OWVkODQ1Y2M1ZWY3MjhlYjVlNjkwNTQzMzc4ZmNmNCJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:7}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -179,7 +179,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{SkullOwner:{Id:[I;-94555632,1849247690,-1380670542,-252090663],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:\"wolf\"}}",
+		"tag": "{SkullOwner:{Id:[I;-94555632,1849247690,-1380670542,-252090663],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=\"}]}},jw_sc:{isCostume:1b,costume:8}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
