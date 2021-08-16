@@ -6,4 +6,5 @@ execute at @e[tag=jw_sc.cost.base] align xyz run particle dust_color_transition 
 scoreboard players add @e[tag=jw_sc.cost.base] jw_sc_time 1
 execute as @e[tag=jw_sc.cost.base] if score @s jw_sc_time >= #costHeadCookTime jw_sc_calc at @s run function jw_sc:costume/base_head
 
-execute as @a if predicate jw_sc:charing_costume at @s run function jw_sc:costume/charge/main
+execute as @a[tag=!jw_sc.cost.had_charged] if predicate jw_sc:charing_costume at @s run function jw_sc:costume/charge/main
+execute as @a[tag=jw_sc.cost.had_charged] unless predicate jw_sc:is_sneaking run tag @s remove jw_sc.cost.had_charged
