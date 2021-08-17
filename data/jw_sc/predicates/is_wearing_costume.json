@@ -1,1 +1,1 @@
-{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"head":{"items":["minecraft:carved_pumpkin"]},"chest":{"items":["minecraft:leather_chestplate"]},"legs":{"items":["minecraft:air"]},"feet":{"items":["minecraft:air"]}}}}  
+{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"head":{"items":["minecraft:player_head"],"nbt":"{jw_sc:{isCostume:1b}}"}}}}

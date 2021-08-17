@@ -4,3 +4,7 @@ scoreboard players set #installed jw_sc_calc 1
 ## Scoreboards
 scoreboard objectives add jw_sc_id dummy
 scoreboard objectives add jw_sc_type dummy
+scoreboard objectives add jw_sc_time dummy
+
+## Variables
+scoreboard players set #costHeadCookTime jw_sc_calc 200

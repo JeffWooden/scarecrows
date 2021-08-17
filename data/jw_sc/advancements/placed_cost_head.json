@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:player_head"
+                    ],
+                    "nbt": "{jw_sc:{isCostume:1b}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jw_sc:costume/block_head"
+    }
+}
