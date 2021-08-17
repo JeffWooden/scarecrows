@@ -1,3 +1,4 @@
+particle dust 0.89 0.773 0.773 1.5 ~ ~1 ~ 0.2 0.5 0.2 0 1 force @a[tag=jw_sc.looking]
 execute store result score @s jw_sc_type run data get entity @s ArmorItems[3].tag.jw_sc.costume
 execute unless score @s jw_sc_type matches 1.. at @e[type=#jw_sc:scarecrow/default,distance=..7] run function jw_sc:scarecrow/repulse
 execute if entity @s[scores={jw_sc_type=1}] at @e[type=#jw_sc:scarecrow/axolotl,distance=..7] run function jw_sc:scarecrow/repulse

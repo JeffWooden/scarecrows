@@ -1,5 +1,7 @@
 execute as @e[type=armor_stand,tag=!jw_sc.scarecrow,tag=!global.ignore] if predicate jw_sc:is_wearing_costume at @s run function jw_sc:scarecrow/create
 execute as @e[type=armor_stand,tag=jw_sc.scarecrow] if predicate jw_sc:is_wearing_costume at @s run function jw_sc:scarecrow/main
+tag @a[tag=!jw_sc.looking,predicate=jw_sc:looking_at_scarecrow] add jw_sc.looking
+tag @a[tag=jw_sc.looking,predicate=!jw_sc:looking_at_scarecrow] remove jw_sc.looking
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:clay"}},tag=!jw_sc.cost.base] at @s if block ~ ~ ~ water_cauldron run tag @s add jw_sc.cost.base
 execute at @e[tag=jw_sc.cost.base] align xyz run particle dust_color_transition 1 1 1 0.9 0.77 0.67 1 ~.5 ~0.975 ~.5 0.15 0.1 0.15 0 1
