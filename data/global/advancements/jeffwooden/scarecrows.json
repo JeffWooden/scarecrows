@@ -1,13 +1,12 @@
 {
     "display": {
-        "title": [
-            {
-              "text": "Scarecrows"
+        "title": [{
+                "text": "Scarecrows"
             },
             {
-              "text": "(V 1.0)",
-              "color": "blue",
-              "bold": true
+                "text": "(V0.9)",
+                "color": "blue",
+                "bold": true
             }
         ],
         "description": "This datapack adds scarecrows that enables players at repulsing some monster types.",
